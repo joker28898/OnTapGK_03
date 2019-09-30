@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:padding="14dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm mới tác giả"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+    <EditText android:id="@+id/txtMaTacGia"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Nhập mã tác giả"
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        />
+    <EditText android:id="@+id/txtTenTacGia"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Nhập tên tác giả"
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btnXoaTrang"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Xóa trắng"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            />
+        <Button android:id="@+id/btnLuuTacGia"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Lưu tác giả"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
